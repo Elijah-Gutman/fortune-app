@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  get "/Elijah", controller: "my_examples", action: "The_way"
+  get "/beer", controller: "more_examples", action: "This_way"
 end
